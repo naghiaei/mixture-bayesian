@@ -6,13 +6,15 @@ This repository contains code and results for the paper "Bayesian Preference Est
 
 There are three datasets used in this paper with the following statistics:
 
-| **Dataset**       | **Users (\(|\mathcal{U}|\))** | **Items (\(|\mathcal{I}|\))** | **Interactions (\(|\mathcal{T}|\))** | **Categories (\(|\mathcal{C}at|\))** | **% Sparsity** |
-|-------------------|-------------------------------|-------------------------------|--------------------------------------|--------------------------------------|----------------|
-| **Yelp**          | 6,651                         | 8,267                         | 264,174                              | 265                                  | 99.55%         |
-| **MovieLens1M**   | 6,040                         | 3,260                         | 998,538                              | 18                                   | 94.93%         |
-| **MovieLensSmall**| 610                           | 8,974                         | 100,010                              | 19                                   | 98.17%         |
+
+| **Dataset**       | **Number of Users** | **Number of Items** | **Number of Interactions** | **Number of Categories** | **% Sparsity** |
+|-------------------|---------------------|---------------------|----------------------------|--------------------------|----------------|
+| **Yelp**          | 6,651               | 8,267               | 264,174                    | 265                      | 99.55%         |
+| **MovieLens1M**   | 6,040               | 3,260               | 998,538                    | 18                       | 94.93%         |
+| **MovieLensSmall**| 610                 | 8,974               | 100,010                    | 19                       | 98.17%         |
 
 ## Models Evaluated
+
 
 In this research, we evaluate the performance of our proposed model by comparing it against several well-known baseline models. These models include advanced machine learning techniques and established Bayesian methods. Unlike our proposed model, these baselines do not explicitly account for user inconsistency.
 
