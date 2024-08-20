@@ -13,6 +13,22 @@ There are three datasets used in this paper with the following statistics:
 | **MovieLens1M**   | 6,040               | 3,260               | 998,538                    | 18                       | 94.93%         |
 | **MovieLensSmall**| 610                 | 8,974               | 100,010                    | 19                       | 98.17%         |
 
+Sample data snapshot:
+
+| **userID** | **movieID** | **Like Status** | **Primary Genre** | **Secondary Genre** |
+|--------|---------|-------------|---------------|-----------------|
+| 54462  | 288     | 0           | Adventure     | Comedy          |
+| 20948  | 247     | 0           | Action        | Adventure       |
+| 25386  | 401     | 0           | Action        | Adventure       |
+| 48678  | 491     | 1           | Comedy        | Drama           |
+| 42717  | 322     | 1           | Crime         | Drama           |
+| 52687  | 143     | 0           | Adventure     | Drama           |
+| 66403  | 218     | 0           | Action        | Adventure       |
+| 41867  | 130     | 1           | Drama         | Thriller        |
+| 10548  | 69      | 0           | Action        | Drama           |
+| 58166  | 33      | 0           | Action        | Comedy          |
+
+
 ## Models Evaluated
 
 
