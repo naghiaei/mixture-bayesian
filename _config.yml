@@ -5,7 +5,7 @@ url: "https://naghiaei.github.io/mixture-bayesian"
 baseurl: "" # Leave empty unless you have a sub-path
 
 # Build settings
-remote_theme: "LeNPaul/Lagrange"
+remote_theme: "chesterhow/tale"
 
 # Site author
 author:

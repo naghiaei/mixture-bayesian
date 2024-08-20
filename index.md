@@ -54,8 +54,8 @@ From Yelp Dataset:
 
 
 ### Process Data Download Instruction
-The raw data for this work can be downloaded from this link sepearated by train, test, category dataset. 
-https://drive.google.com/drive/folders/1FJuFtMRYNtdmvzy-gaC1eynusRdsnnoJ?usp=sharing
+The raw data for this work can be downloaded from this [link](https://drive.google.com/drive/folders/1FJuFtMRYNtdmvzy-gaC1eynusRdsnnoJ?usp=sharing), separated by train, test, and category datasets.
+
 Three folders are included, each folder contain data for one of the datasets (folders are MovieLens1M, MovieLensSmall, Yelp)
 ## Models Evaluated
 
