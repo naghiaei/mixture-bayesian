@@ -28,18 +28,19 @@ There are three datasets used in this paper with the following statistics:
 
 Sample data snapshot - from MovieLens dataset:
 
-| **UserID** | **movieID** | **Like Status** | **Primary Genre** | **Secondary Genre** |
-|--------|---------|-------------|---------------|-----------------|
-| 54462  | 288     | 0           | Adventure     | Comedy          |
-| 20948  | 247     | 0           | Action        | Adventure       |
-| 25386  | 401     | 0           | Action        | Adventure       |
-| 48678  | 491     | 1           | Comedy        | Drama           |
-| 42717  | 322     | 1           | Crime         | Drama           |
-| 52687  | 143     | 0           | Adventure     | Drama           |
-| 66403  | 218     | 0           | Action        | Adventure       |
-| 41867  | 130     | 1           | Drama         | Thriller        |
-| 10548  | 69      | 0           | Action        | Drama           |
-| 58166  | 33      | 0           | Action        | Comedy          |
+| **UserID** | **movieID** | **Like Status** | **Primary Genre** | **Secondary Genre** | **Movie Name**          |
+|------------|-------------|-----------------|-------------------|---------------------|-------------------------|
+| 54462      | 288         | 0               | Adventure         | Comedy              | *The Princess Bride*    |
+| 20948      | 247         | 0               | Action            | Adventure           | *Indiana Jones*         |
+| 25386      | 401         | 0               | Action            | Adventure           | *Mad Max: Fury Road*    |
+| 48678      | 491         | 1               | Comedy            | Drama               | *The Truman Show*       |
+| 42717      | 322         | 1               | Crime             | Drama               | *The Godfather*         |
+| 52687      | 143         | 0               | Adventure         | Drama               | *Life of Pi*            |
+| 66403      | 218         | 0               | Action            | Adventure           | *Gladiator*             |
+| 41867      | 130         | 1               | Drama             | Thriller            | *Se7en*                 |
+| 10548      | 69          | 0               | Action            | Drama               | *Inception*             |
+| 58166      | 33          | 0               | Action            | Comedy              | *Guardians of the Galaxy* |
+
 
 From Yelp Dataset:
 
