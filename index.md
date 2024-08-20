@@ -7,7 +7,7 @@ description: "Paper presentation for Bayesian Preference Estimation with Inconsi
 
 # Bayesian Preference Estimation with Inconsistent Feedback
 
-This repository contains code and results for the paper "Bayesian Preference Estimation with Inconsistent Feedback," submitted to the journal of Mathematical Psychology.
+This website contains access to data, code, and results for the paper "Bayesian Preference Estimation with Inconsistent Feedback," submitted to the journal of Mathematical Psychology.
 
 ## Datasets
 
@@ -20,9 +20,9 @@ There are three datasets used in this paper with the following statistics:
 | **MovieLens1M**   | 6,040               | 3,260               | 998,538                    | 18                       | 94.93%         |
 | **MovieLensSmall**| 610                 | 8,974               | 100,010                    | 19                       | 98.17%         |
 
-Sample data snapshot (from MovieLens1M dataset):
+Sample data snapshot - from MovieLens dataset:
 
-| **userID** | **movieID** | **Like Status** | **Primary Genre** | **Secondary Genre** |
+| **UserID** | **movieID** | **Like Status** | **Primary Genre** | **Secondary Genre** |
 |--------|---------|-------------|---------------|-----------------|
 | 54462  | 288     | 0           | Adventure     | Comedy          |
 | 20948  | 247     | 0           | Action        | Adventure       |
@@ -35,7 +35,26 @@ Sample data snapshot (from MovieLens1M dataset):
 | 10548  | 69      | 0           | Action        | Drama           |
 | 58166  | 33      | 0           | Action        | Comedy          |
 
+From Yelp Dataset:
 
+| **UserID** | **LocationID** | **Like Status** | **Type of Location**  | **City**          |
+|--------|---------|-------------|-------------------|----------------|
+| 155    | 442     | 0           | Cinema            | San Francisco  |
+| 1734   | 6273    | 1           | Cinema            | New York       |
+| 231    | 3004    | 1           | Restaurant        | Los Angeles    |
+| 787    | 3475    | 1           | Shopping Center   | San Francisco  |
+| 2293   | 1857    | 1           | Cinema            | San Francisco  |
+| 1643   | 364     | 0           | Restaurant        | Chicago        |
+| 565    | 2669    | 0           | Restaurant        | San Francisco  |
+| 5013   | 6758    | 0           | Shopping Center   | Los Angeles    |
+| 3500   | 429     | 0           | Shopping Center   | Chicago        |
+| 605    | 4223    | 1           | Restaurant        | Los Angeles    |
+
+
+### Process Data Download Instruction
+The raw data for this work can be downloaded from this link sepearated by train, test, category dataset. 
+https://drive.google.com/drive/folders/1FJuFtMRYNtdmvzy-gaC1eynusRdsnnoJ?usp=sharing
+Three folders are included, each folder contain data for one of the datasets (folders are MovieLens1M, MovieLensSmall, Yelp)
 ## Models Evaluated
 
 
