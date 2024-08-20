@@ -1,7 +1,25 @@
+# Site settings
 title: "Bayesian Preference Estimation"
-description: "Paper presentation for Bayesian Preference Estimation with Inconsistent Feedback"
-theme: jekyll-theme-cayman  # Or another theme of your choice
+description: "Website for the paper 'Bayesian Preference Estimation with Inconsistent Feedback'"
+url: "https://naghiaei.github.io/mixture-bayesian"
+baseurl: "" # Leave empty unless you have a sub-path
 
-# Optional: Additional settings
-show_excerpts: true
-show_last_updated: true
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes" # Minimal Mistakes theme
+
+# Site author
+author:
+  name: "Mohammadmehdi Naghiaei"
+  avatar: "/assets/images/avatar.png" # Optional: Add your avatar
+  bio: "PhD student in Industrial and System Engineering."
+
+# Plugins
+plugins:
+  - jekyll-optional-front-matter
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"

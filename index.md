@@ -1,3 +1,8 @@
+---
+layout: home
+title: "Home"
+---
+
 # Bayesian Preference Estimation with Inconsistent Feedback
 
 This repository contains code and results for the paper "Bayesian Preference Estimation with Inconsistent Feedback," submitted to the journal of Mathematical Psychology.
