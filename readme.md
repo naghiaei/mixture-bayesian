@@ -13,7 +13,7 @@ There are three datasets used in this paper with the following statistics:
 | **MovieLens1M**   | 6,040               | 3,260               | 998,538                    | 18                       | 94.93%         |
 | **MovieLensSmall**| 610                 | 8,974               | 100,010                    | 19                       | 98.17%         |
 
-Sample data snapshot:
+Sample data snapshot (from MovieLens1M dataset):
 
 | **userID** | **movieID** | **Like Status** | **Primary Genre** | **Secondary Genre** |
 |--------|---------|-------------|---------------|-----------------|
