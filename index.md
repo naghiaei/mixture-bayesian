@@ -5,7 +5,7 @@ description: "Paper presentation for Bayesian Preference Estimation with Inconsi
 ---
 
 
-![Header Image]({{site.baseurl }}/assets/images/mind_map.jpg)
+![Header Image]({{site.baseurl }}/assets/images/Mind_Map.jpg)
 
 
 # Bayesian Preference Estimation with Inconsistent Feedback
