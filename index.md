@@ -1,7 +1,9 @@
 ---
 layout: home
-title: "Home"
+title: "Bayesian Preference Estimation"
+description: "Paper presentation for Bayesian Preference Estimation with Inconsistent Feedback Submitted to Journal of Mathematical Psychology"
 ---
+
 
 # Bayesian Preference Estimation with Inconsistent Feedback
 
