@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Bayesian Preference Estimation"
+title: "Bayesian Preference Estimation with Inconsistent Feedback"
 description: "Paper presentation for Bayesian Preference Estimation with Inconsistent Feedback"
 ---
 
@@ -8,7 +8,7 @@ description: "Paper presentation for Bayesian Preference Estimation with Inconsi
 ![Header Image]({{site.baseurl }}/assets/images/Mind_Map.jpg)
 
 
-# Bayesian Preference Estimation with Inconsistent Feedback
+# Manuscript submitted for review to journal of Mathematical Psychology
 
 This website contains access to data, code, and results for the paper "Bayesian Preference Estimation with Inconsistent Feedback," submitted to the journal of Mathematical Psychology.
 
@@ -109,6 +109,7 @@ Metrics are calculated based on the top-10 predictions in the test set. The best
 | BPR Model               | 0.5315           | 0.2795        | 2.3449      | 0.3663    |
 | Most Popular Model      | 1.4520           | 0.6706        | 5.8587      | 0.9175    |
 | _Mixture Bayesian Model_ | _1.6803_        | _0.9418_      | _6.7846_    | _1.2070_  |
+
 ![MovieLens 1M Dataset Results](./bayesian/figs/MovieLens1M_performance_comparison.jpg)
 
 ### Yelp
