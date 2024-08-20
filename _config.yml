@@ -5,17 +5,17 @@ url: "https://naghiaei.github.io/mixture-bayesian"
 baseurl: "" # Leave empty unless you have a sub-path
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-optional-front-matter
 
 # Site author
 author:
   name: "Mohammadmehdi Naghiaei"
   # avatar: "/assets/images/avatar.png" # Optional: Add your avatar
   bio: "PhD student in Industrial and System Engineering."
-
-# Plugins
-plugins:
-  - jekyll-optional-front-matter
 
 # Defaults
 defaults:
