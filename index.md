@@ -12,6 +12,9 @@ description: "Paper presentation for Bayesian Preference Estimation with Inconsi
 
 This website contains access to data, code, and results for the paper "Bayesian Preference Estimation with Inconsistent Feedback," submitted to the journal of Mathematical Psychology.
 
+To foster reproducibility, we have made all code and results publicly available in our repository : [Repository link](https://github.com/naghiaei/mixture-bayesian)
+
+
 ## Datasets
 
 There are three datasets used in this paper with the following statistics:
@@ -95,6 +98,41 @@ This notebook combines the entire process, including model implementation, runni
 
 Results on real-data can be seen below:
 
-![Yelp Dataset Results](./bayesian/figs/Yelp_performance_comparison.jpg)
+Metrics are calculated based on the top-10 predictions in the test set. The best-performing model for each metric is highlighted in **bold**, and the second-best is _italicized_.
+### MovieLens 1M
+
+| **Model**               | **Precision@10** | **Recall@10** | **NDCG@10** | **F1@10** |
+|-------------------------|------------------|---------------|-------------|-----------|
+| Bayesian Model          | 1.2434           | 0.6991        | 5.0201      | 0.8950    |
+| **Collaborative Filtering** | **3.2814** | **1.9516** | **10.1953** | **2.4475** |
+| Multi-Attribute Utility  | 0.8642           | 0.4642        | 3.5332      | 0.6039    |
+| BPR Model               | 0.5315           | 0.2795        | 2.3449      | 0.3663    |
+| Most Popular Model      | 1.4520           | 0.6706        | 5.8587      | 0.9175    |
+| _Mixture Bayesian Model_ | _1.6803_        | _0.9418_      | _6.7846_    | _1.2070_  |
 ![MovieLens 1M Dataset Results](./bayesian/figs/MovieLens1M_performance_comparison.jpg)
+
+### Yelp
+
+| **Model**               | **Precision@10** | **Recall@10** | **NDCG@10** | **F1@10** |
+|-------------------------|------------------|---------------|-------------|-----------|
+| Bayesian Model          | _0.0120_         | _0.0872_      | _0.0547_    | _0.0211_  |
+| Collaborative Filtering | 0.0030           | 0.0060        | 0.0137      | 0.0040    |
+| Multi-Attribute Utility  | 0.0015           | 0.0150        | 0.0068      | 0.0027    |
+| BPR Model               | 0.0030           | 0.0105        | 0.0137      | 0.0047    |
+| Most Popular Model      | 0.0015           | 0.0021        | 0.0068      | 0.0018    |
+| **Mixture Bayesian Model** | **0.0158**  | **0.1142**  | **0.0719**  | **0.0278** |
+![Yelp Dataset Results](./bayesian/figs/Yelp_performance_comparison.jpg)
+
+### MovieLens Small
+
+| **Model**               | **Precision@10** | **Recall@10** | **NDCG@10** | **F1@10** |
+|-------------------------|------------------|---------------|-------------|-----------|
+| Bayesian Model          | 0.2874           | 0.1609        | 1.2000      | 0.2063    |
+| Collaborative Filtering | 0.0328           | 0.0086        | 0.1490      | 0.0136    |
+| **Multi-Attribute Utility** | 0.2787      | **0.2283**  | 1.2662      | 0.2510    |
+| BPR Model               | 0.1639           | 0.2101        | 0.6872      | 0.1842    |
+| _Most Popular Model_    | _0.3683_         | _0.2178_      | _1.4661_    | _0.2738_  |
+| **Mixture Bayesian Model** | **0.3915**  | 0.2140        | **1.6312**  | **0.2767** |
+
+
 ![MovieLens Small Dataset Results](./bayesian/figs/MovieLensSmall_performance_comparison.jpg)
