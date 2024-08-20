@@ -1,8 +1,9 @@
 # Site settings
 title: "Bayesian Preference Estimation With Inconsistent Feedback"
 description: "Website for the paper 'Bayesian Preference Estimation with Inconsistent Feedback'"
-url: "https://naghiaei.github.io/mixture-bayesian"
-baseurl: "" # Leave empty unless you have a sub-path
+url: "https://naghiaei.github.io"
+baseurl: "/mixture-bayesian" # Your repository name with a leading slash
+
 
 # Build settings
 # Build settings
