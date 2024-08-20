@@ -23,9 +23,15 @@ author:
   # avatar: "/assets/images/avatar.png" # Optional: Add your avatar
   bio: "PhD student in Industrial and System Engineering."
 
-# Defaults
 defaults:
   - scope:
       path: ""
+      type: "pages"
+    values:
+      layout: "home"
+  - scope:
+      path: ""
+      type: "posts"
     values:
       layout: "single"
+
