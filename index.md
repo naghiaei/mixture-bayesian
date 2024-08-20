@@ -2,12 +2,10 @@
 layout: home
 title: "Bayesian Preference Estimation"
 description: "Paper presentation for Bayesian Preference Estimation with Inconsistent Feedback"
-header:
-  image: "/assets/images/header.png"
 ---
 
 
-![Header Image]({{site.baseurl }}/assets/images/header.png)
+![Header Image]({{site.baseurl }}/assets/images/mind_map.jpg)
 
 
 # Bayesian Preference Estimation with Inconsistent Feedback
