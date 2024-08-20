@@ -4,7 +4,7 @@ title: "Bayesian Preference Estimation"
 description: "Paper presentation for Bayesian Preference Estimation with Inconsistent Feedback Submitted to Journal of Mathematical Psychology"
 ---
 
-![Header Image](assets/images/header.png)
+![Header Image](./assets/images/header.png)
 
 
 # Bayesian Preference Estimation with Inconsistent Feedback
@@ -94,6 +94,6 @@ This notebook combines the entire process, including model implementation, runni
 
 Results on real-data can be seen below:
 
-![Yelp Dataset Results](bayesian/figs/Yelp_performance_comparison.jpg)
-![MovieLens 1M Dataset Results](bayesian/figs/MovieLens1M_performance_comparison.jpg)
-![MovieLens Small Dataset Results](bayesian/figs/MovieLensSmall_performance_comparison.jpg)
+![Yelp Dataset Results](./bayesian/figs/Yelp_performance_comparison.jpg)
+![MovieLens 1M Dataset Results](./bayesian/figs/MovieLens1M_performance_comparison.jpg)
+![MovieLens Small Dataset Results](./bayesian/figs/MovieLensSmall_performance_comparison.jpg)
