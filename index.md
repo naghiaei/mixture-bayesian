@@ -4,7 +4,7 @@ title: "Bayesian Preference Estimation"
 description: "Paper presentation for Bayesian Preference Estimation with Inconsistent Feedback Submitted to Journal of Mathematical Psychology"
 ---
 
-![Header Image](./assets/images/header.png)
+![Header Image]({{site.baseurl }}/assets/images/header.png)
 
 
 # Bayesian Preference Estimation with Inconsistent Feedback
