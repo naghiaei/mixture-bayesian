@@ -8,7 +8,7 @@ description: "Paper presentation for Bayesian Preference Estimation with Inconsi
 ![Header Image]({{site.baseurl }}/assets/images/Mind_Map.jpg)
 
 
-# Manuscript submitted for review to the Journal of Mathematical Psychology
+# Manuscript submitted for review to the DECISION Journal
 
 This website contains access to data, code, and results for the paper "Bayesian Preference Estimation with Inconsistent Feedback," submitted to the journal of Mathematical Psychology.
 
